@@ -1,0 +1,10 @@
+export const keys = {
+    HANDLE_LOGIN_SUBMIT: "HANDLE_LOGIN_SUBMIT",
+    FETCH_USERS_SUCCESS: "FETCH_USERS_SUCCESS",
+    REQUEST_HAS_ERRORED: "REQUEST_HAS_ERRORED",
+    LOGIN_SUCCESS: "LOGIN_SUCCESS",
+    IS_LOADING: "IS_LOADING"
+};
+
+export const LOGIN_URL = "http://3.122.7.162:5000/v60/admin/session";
+export const FETCH_USERS_URL = "http://3.122.7.162:5000/v60/admin/search/user";
